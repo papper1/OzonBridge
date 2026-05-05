@@ -1,0 +1,30 @@
+# Workspace
+.DS_Store
+Thumbs.db
+
+# Python
+**/__pycache__/
+**/*.py[cod]
+.venv/
+venv/
+
+# Secrets
+1688_to_ozon/.env
+1688_to_ozon/data/
+1688_to_ozon/data/**
+1688_to_ozon/session.json
+1688_to_ozon/*.log
+
+# Flutter / Dart
+crawldesk_pro/.dart_tool/
+crawldesk_pro/.flutter-plugins-dependencies
+crawldesk_pro/build/
+
+# IDE
+**/.idea/
+**/.vscode/
+**/*.iml
+
+# Packaging outputs
+packaging/windows/build/
+packaging/windows/output/
