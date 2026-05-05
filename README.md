@@ -37,13 +37,25 @@ The settings screen manages runtime configuration such as `ZYTE_API_KEY`, `OPENA
 
 ## Screenshot gallery
 
-Use the following screenshot names when adding the actual image files to the repository:
+### 1. Dashboard Overview
 
-- `overview-dashboard.png`: Dashboard overview and quick crawl workflow.
-- `data-collection.png`: Crawl form with source selection, translation, and export options.
-- `template-management.png`: Ozon template library and management view.
-- `results-screen.png`: Processed results, export status, and detail preview.
-- `settings-runtime-setup.png`: Runtime setup, API keys, and `1688` session management.
+![Dashboard Overview](assets/screenshots/overview-dashboard.png)
+
+### 2. Data Collection
+
+![Data Collection](assets/screenshots/data-collection.png)
+
+### 3. Template Management
+
+![Template Management](assets/screenshots/template-management.png)
+
+### 4. Results Screen
+
+![Results Screen](assets/screenshots/results-screen.png)
+
+### 5. Settings and Runtime Setup
+
+![Settings and Runtime Setup](assets/screenshots/settings-runtime-setup.png)
 
 ## Project structure
 
