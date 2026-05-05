@@ -1,0 +1,26 @@
+{
+  "template_name": "shoes",
+  "required_fields": ["product_name", "brand", "color", "size"],
+  "field_map": {
+    "Product name": {
+      "field": "product_name",
+      "translate": "title"
+    },
+    "Brand": {
+      "field": "brand",
+      "translate": "brand"
+    },
+    "Product color": {
+      "field": "color",
+      "translate": "color"
+    },
+    "Shoe size": {
+      "field": "size",
+      "translate": "size"
+    },
+    "Weight in package, g": {
+      "field": "weight",
+      "translate": "weight"
+    }
+  }
+}

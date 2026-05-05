@@ -1,0 +1,10 @@
+openpyxl
+openai
+playwright
+fastapi
+uvicorn
+beautifulsoup4
+# Optional for Etsy browser hardening:
+# playwright-stealth
+python-dotenv
+requests

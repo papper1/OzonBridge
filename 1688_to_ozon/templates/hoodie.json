@@ -1,0 +1,88 @@
+{
+  "template_name": "hoodie",
+  "required_fields": [
+    "article_code",
+    "price_cny",
+    "package_weight_g",
+    "package_width_mm",
+    "package_height_mm",
+    "package_length_mm",
+    "main_image_url",
+    "brand",
+    "color",
+    "size",
+    "type_export"
+  ],
+  "workbook_template": "assets/templates/Hoodie_08.04.2026.xlsx",
+  "sheet_name": "Template",
+  "header_row": 2,
+  "data_start_row": 5,
+  "field_map": {
+    "Article code*": "article_code",
+    "Product name": {
+      "field": "ozon_product_name",
+      "translate": "title"
+    },
+    "Price, CNY*": "price_cny",
+    "Weight in package, g*": "package_weight_g",
+    "Package width, mm*": "package_width_mm",
+    "Package height, mm*": "package_height_mm",
+    "Package length, mm*": "package_length_mm",
+    "Link to the main image*": "main_image_url",
+    "Links to additional photos": "additional_image_urls",
+    "Brand in Clothing and Footwear*": {
+      "field": "brand",
+      "translate": "brand"
+    },
+    "Product color*": {
+      "field": "color_export"
+    },
+    "Merge on One PDP*": "merge_on_one_pdp",
+    "Russian size*": {
+      "field": "russian_size_export"
+    },
+    "Color name": {
+      "field": "color_name_export"
+    },
+    "#Hashtags": "hashtags_export",
+    "Manufacturer size": {
+      "field": "size",
+      "translate": "size"
+    },
+    "Type*": "type_export",
+    "Gender*": "gender_export",
+    "Annotation": {
+      "field": "product_name",
+      "translate": "title"
+    },
+    "Country of manufacture": "country_of_manufacture",
+    "Material": {
+      "field": "material",
+      "translate": "material"
+    },
+    "Material composition": {
+      "field": "material",
+      "translate": "material"
+    },
+    "Model": "model",
+    "Lining material": {
+      "field": "lining_material",
+      "translate": "material"
+    },
+    "Style": "style",
+    "Season": "season",
+    "Fastener type": "fastener_type",
+    "Drawing": "drawing",
+    "Model Features": "model_features",
+    "Cut": "cut",
+    "Decorative Elements": "decorative_elements",
+    "Height type": "height_type",
+    "Sleeve Type": "sleeve_type",
+    "Collar": "collar",
+    "Purpose": "purpose",
+    "Height": "height",
+    "Clothing packaging type": "clothing_packaging_type",
+    "Clothing & Shoe Care": "care_instructions",
+    "Warranty": "warranty"
+  }
+}

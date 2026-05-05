@@ -1,0 +1,53 @@
+{
+  "template_name": "laptop",
+  "required_fields": [
+    "article_code",
+    "ozon_product_name",
+    "price_cny",
+    "package_weight_g",
+    "package_width_mm",
+    "package_height_mm",
+    "package_length_mm",
+    "main_image_url",
+    "brand",
+    "model"
+  ],
+  "workbook_template": "c:\\Users\\thang\\Downloads\\Laptop_22.03.2026.xlsx",
+  "sheet_name": "Template",
+  "header_row": 2,
+  "data_start_row": 5,
+  "field_map": {
+    "Article code*": "article_code",
+    "Product name": {
+      "field": "ozon_product_name",
+      "translate": "title"
+    },
+    "Price, CNY*": "price_cny",
+    "Weight in package, g*": "package_weight_g",
+    "Package width, mm*": "package_width_mm",
+    "Package height, mm*": "package_height_mm",
+    "Package length, mm*": "package_length_mm",
+    "Link to the main image*": "main_image_url",
+    "Links to additional photos": "additional_image_urls",
+    "Brand*": {
+      "field": "brand",
+      "translate": "brand"
+    },
+    "Type*": "type_export",
+    "Model name (to be combined into a single product card)*": "model",
+    "Merge on One PDP*": "merge_on_one_pdp",
+    "Product color": {
+      "field": "color_export"
+    },
+    "Color name": {
+      "field": "color_name_export"
+    },
+    "Processor model": "cpu",
+    "Random access memory": {
+      "field": "ram_export"
+    },
+    "Total SSD capacity, GB": "storage_capacity_gb",
+    "Screen diagonal, inches": "screen_size",
+    "Weight, kg": "weight_kg_numeric"
+  }
+}

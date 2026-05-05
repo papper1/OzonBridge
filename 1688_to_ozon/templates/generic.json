@@ -1,0 +1,11 @@
+{
+  "template_name": "generic",
+  "required_fields": ["product_name", "brand"],
+  "field_map": {
+    "Product name": "product_name",
+    "Brand": "brand",
+    "Model": "model",
+    "Product color": "color",
+    "Weight in package, g": "weight"
+  }
+}
