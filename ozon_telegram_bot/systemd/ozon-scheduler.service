@@ -1,0 +1,13 @@
+[Unit]
+Description=Ozon Scheduler
+After=network.target postgresql.service
+
+[Service]
+Type=simple
+WorkingDirectory=/opt/ozon_telegram_bot
+ExecStart=/opt/ozon_telegram_bot/venv/bin/python -m scripts.run_scheduler
+Restart=always
+EnvironmentFile=/opt/ozon_telegram_bot/.env
+
+[Install]
+WantedBy=multi-user.target
