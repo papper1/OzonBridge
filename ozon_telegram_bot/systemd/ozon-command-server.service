@@ -1,0 +1,13 @@
+[Unit]
+Description=Ozon Command Server
+After=network.target
+
+[Service]
+Type=simple
+WorkingDirectory=/opt/ozon_telegram_bot
+ExecStart=/opt/ozon_telegram_bot/venv/bin/python -m scripts.run_command_server
+Restart=always
+EnvironmentFile=/opt/ozon_telegram_bot/.env
+
+[Install]
+WantedBy=multi-user.target
